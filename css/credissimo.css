@@ -1,10 +1,10 @@
 @font-face {
     font-family: museo300;
-    src: url(./fonts/museo300-regular-webfont.ttf);
+    src: url(../fonts/museo300-regular-webfont.ttf);
 }
 @font-face {
     font-family: museo500;
-    src: url(./fonts/museo500-regular-webfont.ttf);
+    src: url(../fonts/museo500-regular-webfont.ttf);
 }
 
 body {
@@ -35,7 +35,7 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#61c419',GradientType=0 ); /* IE6-9 */
 }
 .navbar-dark .navbar-toggler-icon {
-    background-image: url(./images/hamburger.svg);
+    background-image: url(../images/hamburger.svg);
 }
 .form-control{
     width:auto;
@@ -45,22 +45,22 @@ body {
 }
 /* used snipping tool, photoshop & https://www.toptal.com/developers/css/sprite-generator for sprite generation */
 .home { 
-    background: url(./images/css_sprites.png) -30px -32px;
+    background: url(../images/css_sprites.png) -30px -32px;
     background-size: 400% 400%;
     width: 20px;
 }
 .images { 
-    background: url(./images/css_sprites.png) -58px -4px;
+    background: url(../images/css_sprites.png) -58px -4px;
     background-size: 400% 400%;
     width: 20px;
 }
 .contacts { 
-    background: url(./images/css_sprites.png) -5px -5px;
+    background: url(../images/css_sprites.png) -5px -5px;
     background-size: 400% 400%;
     width: 20px;
 }
 .menulevel { 
-    background: url(./images/css_sprites.png) -5px -58px;
+    background: url(../images/css_sprites.png) -5px -58px;
     background-size: 400% 400%;
     width: 20px;
 }
@@ -158,27 +158,27 @@ form input:hover, form textarea:hover{
     padding:0 !important;
 }
 .google { 
-    background: url(./images/css_sprites.png) -3px -45px;
+    background: url(../images/css_sprites.png) -3px -45px;
     background-size: 350% 350%;
     width: 35px;
 }
 .linkedin { 
-    background: url(./images/css_sprites.png) -85px -45px;
+    background: url(../images/css_sprites.png) -85px -45px;
     background-size: 350% 350%;
     width: 35px;
 }
 .twitter { 
-    background: url(./images/css_sprites.png) -45px -88px;
+    background: url(../images/css_sprites.png) -45px -88px;
     background-size: 360% 360%;
     width: 35px;
 }
 .wordpress { 
-    background: url(./images/css_sprites.png) -87px -88px;
+    background: url(../images/css_sprites.png) -87px -88px;
     background-size: 360% 360%;
     width: 35px;
 }
 .facebook { 
-    background: url(./images/css_sprites.png) -44px -4px;
+    background: url(../images/css_sprites.png) -44px -4px;
     background-size: 350% 350%;
     width: 35px;
 }
