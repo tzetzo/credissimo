@@ -1,0 +1,226 @@
+@font-face {
+    font-family: museo300;
+    src: url(./fonts/museo300-regular-webfont.ttf);
+}
+@font-face {
+    font-family: museo500;
+    src: url(./fonts/museo500-regular-webfont.ttf);
+}
+
+body {
+    font-family: museo300;
+}
+.mainContainer{
+    position:relative;
+}
+/* used http://www.colorzilla.com/gradient-editor/ for gradient generation */
+.navigation{
+    margin-top:15px;
+    border-radius: 5px;
+    background: #cfe7fa; /* Old browsers */
+    background: -moz-linear-gradient(top, #cfe7fa 0%, #99ccff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #cfe7fa 0%,#99ccff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #cfe7fa 0%,#99ccff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#99ccff',GradientType=0 ); /* IE6-9 */
+}
+.navigation-form > input{
+    max-width:170px;
+}
+.navigation-form > button, .contactForm button{
+    border: 1px #595959 solid;
+    background: #b4e391; /* Old browsers */
+    background: -moz-linear-gradient(top, #b4e391 50%, #61c419 100%, #b4e391 100%, #61c419 101%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #b4e391 50%,#61c419 100%,#b4e391 100%,#61c419 101%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #b4e391 50%,#61c419 100%,#b4e391 100%,#61c419 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#61c419',GradientType=0 ); /* IE6-9 */
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(./images/hamburger.svg);
+}
+.form-control{
+    width:auto;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color:#000;
+}
+/* used snipping tool, photoshop & https://www.toptal.com/developers/css/sprite-generator for sprite generation */
+.home { 
+    background: url(./images/css_sprites.png) -30px -32px;
+    background-size: 400% 400%;
+    width: 20px;
+}
+.images { 
+    background: url(./images/css_sprites.png) -58px -4px;
+    background-size: 400% 400%;
+    width: 20px;
+}
+.contacts { 
+    background: url(./images/css_sprites.png) -5px -5px;
+    background-size: 400% 400%;
+    width: 20px;
+}
+.menulevel { 
+    background: url(./images/css_sprites.png) -5px -58px;
+    background-size: 400% 400%;
+    width: 20px;
+}
+
+.siteTitle{
+    font-family: museo500;
+    position:relative;
+    height:17.5em;
+    margin-top:15px;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    align-items: center;
+    border: 1px #595959 solid;
+    box-shadow: 1px 1px 10px 5px #999999 inset;
+}
+.siteTitle > p{
+    display:inline-block;
+    width:100%; 
+    position:absolute;
+    top:50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 2px 2px 8px #595959;
+}
+.siteTitle > p > span{
+    display:inline-block;
+    -ms-transform: rotate(8deg); /* IE 9 */
+    -webkit-transform: rotate(8deg); /* Safari */
+    transform: rotate(8deg);
+    transform-origin: center;
+}
+
+.imageGallery{
+    position:relative;
+    /*height:20.475em;*/
+    margin-top:15px;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    background: #99ccff;
+}
+.imageGallery > div{
+    
+    /*position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 0; */
+}
+.imageGallery img{
+    min-width:200px;  /*use media queries to set it to 300px for mobile & tablet*/
+/*    max-width:300px;*/
+    margin-bottom:15px;
+    margin-top:15px;
+}
+
+.contactForm{
+    position:relative;
+    /*height:20.475em;*/
+    margin-top:15px;
+    margin-bottom:5.063em;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    background: #99ccff;
+    color: #fff;
+}
+.contactForm input, .contactForm textarea{
+    width: 200px !important;
+}
+form input:hover, form textarea:hover{
+    background-color: lightgrey;
+}
+
+.contactForm fieldset{
+    position:relative;
+    width:100%;
+    margin-bottom:15px;
+}
+
+.button-label{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.button-label + button{
+    float:right;
+}
+
+.footer {
+/*    height: 4.375em;*/
+    position: fixed;
+    bottom: 15px;
+    z-index:2;
+    padding-right: 30px;
+    padding-left: 0px;
+}
+.footer a{
+    padding:0 !important;
+}
+.google { 
+    background: url(./images/css_sprites.png) -3px -45px;
+    background-size: 350% 350%;
+    width: 35px;
+}
+.linkedin { 
+    background: url(./images/css_sprites.png) -85px -45px;
+    background-size: 350% 350%;
+    width: 35px;
+}
+.twitter { 
+    background: url(./images/css_sprites.png) -45px -88px;
+    background-size: 360% 360%;
+    width: 35px;
+}
+.wordpress { 
+    background: url(./images/css_sprites.png) -87px -88px;
+    background-size: 360% 360%;
+    width: 35px;
+}
+.facebook { 
+    background: url(./images/css_sprites.png) -44px -4px;
+    background-size: 350% 350%;
+    width: 35px;
+}
+
+/*all labels in the form*/
+@media (min-width: 576px){
+    .form-inline label {
+        display:inline-block;
+    }
+    .contactForm form{
+        width:350px;
+    }
+}
+/*all inputs in the form*/
+@media (min-width: 576px){
+    .form-inline .form-control{
+        float:right;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .imageGallery img{
+        min-width:290px;
+    }
+}
+@media screen and (min-width: 576px) {
+    .imageGallery img{
+        min-width:270px;
+    }
+    .middle{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+@media screen and (min-width: 813px) {
+    .imageGallery img{
+        min-width:300px;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .imageGallery img{
+        min-width:230px;
+    }
+}
